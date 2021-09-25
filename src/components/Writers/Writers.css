@@ -1,4 +1,12 @@
 .writers-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+}
+.cart-container{
+  position: fixed;
+  right: 0;
+  width: 300px;
+
 }

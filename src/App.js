@@ -4,7 +4,7 @@ import Writers from './components/Writers/Writers';
 
 function App() {
   return (
-    <div>
+    <div className="bg-color">
       <Header></Header>
       <Writers></Writers>
     </div>
