@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Writer from '../Writer/Writer';
 import './Writers.css';
 
 const Writers = () => {
     const [writers, setWriters] = useState([]);
     const [cart, setCart] = useState([]);
+    // const [names, setNames] = useState([]);
 
     useEffect(() =>
         fetch('./data.JSON')
@@ -15,6 +17,8 @@ const Writers = () => {
     const handleAddToCart = (writer) => {
         const newCart = [...cart, writer];
         setCart(newCart);
+        // const newName = [...names, writer];
+        // setNames(newName);
     }
 
     return (
@@ -28,8 +32,7 @@ const Writers = () => {
                 }
             </div>
             <div className="cart-container">
-                <h4>Writers Added: {cart.length}</h4>
-                <h4>Total Cost: $</h4>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
