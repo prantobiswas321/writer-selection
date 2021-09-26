@@ -1,12 +1,14 @@
 import React from 'react';
+// fot font-awesome icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Writer.css';
 
 const Writer = (props) => {
+
+    // distructuring props.writer
     const { img, name, age, country, salary } = props.writer;
     const element = <FontAwesomeIcon icon={faShoppingCart} />
-    // console.log(props.writer);
     return (
         <div>
             <div className="card">

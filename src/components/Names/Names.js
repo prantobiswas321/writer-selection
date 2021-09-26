@@ -2,10 +2,9 @@ import React from 'react';
 import './Names.css';
 
 const Names = (props) => {
-    // console.log(props.names);
     const { name } = props.names;
-    console.log(name);
     return (
+        // ul in the div for showing names in the cart
         <div>
             <ul>
                 <li>{name}</li>

@@ -1,4 +1,14 @@
 .cart{
-   position: sticky;
-   top: 0;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    background-color: #2c2c25;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.cart-text{
+    padding: 5px;
+    text-align: center;
 }

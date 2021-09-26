@@ -6,25 +6,25 @@ import './Writers.css';
 const Writers = () => {
     const [writers, setWriters] = useState([]);
     const [cart, setCart] = useState([]);
-    // const [names, setNames] = useState([]);
 
+    // for fetching data from json file
     useEffect(() =>
         fetch('./data.JSON')
             .then(res => res.json())
             .then(data => setWriters(data))
         , [])
 
+    // for handle button
     const handleAddToCart = (writer) => {
         const newCart = [...cart, writer];
         setCart(newCart);
-        // const newName = [...names, writer];
-        // setNames(newName);
     }
 
     return (
         <div className="writers-container">
             <div className="writer-container">
                 {
+                    // mapping writers for getting writer
                     writers.map(writer => <Writer
                         key={writer.id}
                         handleAddToCart={handleAddToCart}

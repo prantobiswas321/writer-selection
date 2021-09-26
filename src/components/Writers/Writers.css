@@ -2,6 +2,6 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     font-family: 'Baloo Paaji 2', cursive;
-    color: white;
+    color: rgb(243, 242, 242);
     position: relative;
 }
