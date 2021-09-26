@@ -4,6 +4,6 @@ Live site link: [Writer selection site](https://writer-selection.netlify.app/).
 
 # Website specifications:
 
-* Here you can select different writers.
-* Add them in your cart.
-* You can see your selected list in the cart.
+* This is a writer selection site.
+* Here you can select and add writer in your cart.
+* You can see your selected writer's list in the cart.
