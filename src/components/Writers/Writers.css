@@ -3,9 +3,5 @@
     grid-template-columns: 4fr 1fr;
     font-family: 'Baloo Paaji 2', cursive;
     color: white;
-}
-.cart-container{
-  position: fixed;
-  right: 0;
-  width: 300px;
+    position: relative;
 }

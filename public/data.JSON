@@ -5,7 +5,7 @@
         "age": 52,
         "country": "England",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/702px-Shakespeare.jpg",
-        "salary": 100004566
+        "salary": 1004566
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "age": 55,
         "country": "America",
         "img": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Emily_Dickinson_daguerreotype_%28Restored%29.jpg",
-        "salary": 100999232
+        "salary": 1099232
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "age": 46,
         "country": "America",
         "img": "https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg",
-        "salary": 1000023233
+        "salary": 1003233
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "age": 71,
         "country": "England",
         "img": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Conan_doyle.jpg",
-        "salary": 199223566
+        "salary": 1223566
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "age": 82,
         "country": "Russia",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/800px-L.N.Tolstoy_Prokudin-Gorsky.jpg",
-        "salary": 100049966
+        "salary": 1009966
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "age": 40,
         "country": "America",
         "img": "https://upload.wikimedia.org/wikipedia/commons/9/97/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg",
-        "salary": 190045660
+        "salary": 1045660
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "age": 30,
         "country": "America",
         "img": "https://upload.wikimedia.org/wikipedia/commons/5/50/Robert_E_Howard_suit.jpg",
-        "salary": 100094370
+        "salary": 1000370
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "age": 80,
         "country": "India",
         "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rabindranath_Tagore_in_1909.jpg",
-        "salary": 10009904
+        "salary": 1009904
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "age": 70,
         "country": "India",
         "img": "https://upload.wikimedia.org/wikipedia/commons/0/07/Kipling_nd.jpg",
-        "salary": 10007908
+        "salary": 1000908
     },
     {
         "id": 10,
